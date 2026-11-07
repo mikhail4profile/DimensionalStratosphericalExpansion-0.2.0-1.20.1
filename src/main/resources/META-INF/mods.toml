@@ -1,0 +1,30 @@
+# Forge 1.20.1 (FML 47) mod metadata
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="strato"
+version="${file.jarVersion}"
+displayName="Stratospherical Expansion"
+credits="Original mod by Apothic0n. Ported to Minecraft 1.20.1."
+authors="Apothic0n"
+description='''
+Stratospherical Expansion:
+
+Expanding the stratosphere!
+'''
+
+[[dependencies.strato]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.strato]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
